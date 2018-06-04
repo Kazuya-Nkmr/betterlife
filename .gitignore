@@ -2,3 +2,4 @@
 .project
 ./betterlife/bin/
 betterlife/bin/*
+/.recommenders/
