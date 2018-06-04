@@ -20,8 +20,6 @@ public class RoomsController {
     String listRooms(Model model) {
         LocalDate today = LocalDate.now();
         roomService.findReserableRooms(today);
-
         return "room/listRooms";
     }
-
 }
