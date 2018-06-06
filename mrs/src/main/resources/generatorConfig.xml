@@ -9,7 +9,7 @@
 			password="" />
 		<javaModelGenerator targetPackage="mrs.domain.model"
 			targetProject="mrs/src/main/java" />
-		<sqlMapGenerator targetPackage="mapper"
+		<sqlMapGenerator targetPackage="mrs.domain.mapper"
 			targetProject="mrs/src/main/resources" />
 		<javaClientGenerator targetPackage="mrs.domain.mapper"
 			targetProject="mrs/src/main/java"
